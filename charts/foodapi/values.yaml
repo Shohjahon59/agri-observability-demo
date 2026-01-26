@@ -1,6 +1,6 @@
 image:
   repository: ogabek0331/foodapi
-  tag: "0.1.0"
+  tag: "69a5347"
   pullPolicy: IfNotPresent
   imagePullSecrets:
   - name: regcred
