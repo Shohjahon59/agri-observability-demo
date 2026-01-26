@@ -25,7 +25,10 @@ jobs:
 
       - name: Build and push
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/foodapi:${{ steps.vars.outputs.TAG }} -f src/FoodApi/Dockerfile src
+          docker build \
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/foodapi:${{ steps.vars.outputs.TAG }} \
+            -f src/FoodApi/FoodApi/Dockerfile \
+            .
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/foodapi:${{ steps.vars.outputs.TAG }}
 
       - name: Update Helm values image tag
