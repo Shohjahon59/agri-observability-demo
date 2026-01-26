@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: foodapi
+  labels:
+    app: foodapi
+spec:
+  selector:
+    app: foodapi
+  ports:
+    - name: http
+      port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.targetPort }}

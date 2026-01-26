@@ -1,0 +1,16 @@
+grafana:
+  adminPassword: "admin"
+  service:
+    type: ClusterIP
+
+  additionalDataSources:
+    - name: Prometheus
+      type: prometheus
+      access: proxy
+      url: http://monitoring-kube-prometheus-prometheus:9090
+      isDefault: true
+
+    - name: Loki
+      type: loki
+      access: proxy
+      url: http://loki:3100
