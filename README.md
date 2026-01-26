@@ -157,6 +157,9 @@ GitHub Actions orqali avtomatik CI/CD pipeline:
 - Retry logic bilan ishonchli push
 - `[skip ci]` tag bilan infinite loop oldini olish
 
+  <img width="3022" height="1774" alt="image" src="https://github.com/user-attachments/assets/a5f32eee-04cc-4565-b891-f858b0c42124" />
+
+
 ## 🎯 Observability
 
 ### Prometheus Metrics
@@ -175,12 +178,20 @@ spec:
     path: /metrics
 ```
 
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/b32af751-b100-4940-a5fc-bbb7eb29f200" />
+
+<img width="3024" height="1202" alt="image" src="https://github.com/user-attachments/assets/4a12c69c-38a6-4f5f-8ceb-18b125f16629" />
+
+
+
 ### Grafana Dashboard
 Quyidagi metrikalar uchun dashboard yarating:
 - Request rate (RPS)
 - Response time (latency)
 - Error rate
 - Order creation rate
+  
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/485c7d98-b333-451a-a4ae-b0f22e81707b" />
 
 ## 🔧 Konfiguratsiya
 
