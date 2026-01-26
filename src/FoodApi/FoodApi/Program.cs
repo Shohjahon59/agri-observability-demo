@@ -15,6 +15,8 @@ var ordersCreated = Metrics.CreateCounter(
     "foodapi_orders_created_total",
     "Total number of orders created");
 
+    
+
 var requestCount = Metrics.CreateCounter(
     "foodapi_http_requests_total",
     "HTTP requests total",
