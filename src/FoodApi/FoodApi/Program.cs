@@ -47,6 +47,7 @@ app.Use(async (ctx, next) =>
     }
 });
 
+
 app.MapGet("/health", () => Results.Ok(new { ok = true }))
    .WithName("health");
 
