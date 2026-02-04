@@ -282,8 +282,8 @@ Bu loyha MIT litsenziyasi ostida tarqatiladi. Batafsil ma'lumot uchun `LICENSE` 
 ## 👨‍💻 Muallif
 
 **Ogabek Gafurov**
-- GitHub: [@ogash3103](https://github.com/ogash3103)
-- Docker Hub: [ogabek0331](https://hub.docker.com/u/ogabek0331)
+- GitHub: [@ogash3103](https://github.com/Shohjahon59)
+- Docker Hub: [ogabek0331](https://hub.docker.com/u/rashidov2005)
 
 ---
 
